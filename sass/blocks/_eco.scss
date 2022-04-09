@@ -1,0 +1,41 @@
+.eco {
+    min-height: 627px;
+    // padding: 40px 0 20px 0;
+    background: #F5F5F5;
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        &_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 45px;
+            color: #17002E;
+            padding-top: 169px;
+        }
+        &_subtitle {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: #000000;
+            margin-top: 47px;
+            &_second {
+                margin-top: 11px;
+            }
+        }
+        &_button {
+            margin-top: 74px;
+        }
+        &_image {
+            margin-left: 85px;
+        }
+    }
+    &-img {
+        max-width: 100%;
+        height: auto;
+    }
+}

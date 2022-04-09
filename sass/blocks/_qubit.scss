@@ -1,0 +1,67 @@
+.qubit {
+    min-height: 537px;
+    padding-top: 94px;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: center;
+        color: #000000;
+    }
+    &__subtitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+        margin-top: 22px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__item {
+        width: 30%;
+        &_image {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 23px;
+            text-align: center;
+            color: #000000;
+            margin-top: 45px;
+        }
+        &_descr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 15px;
+            text-align: center;
+            color: #000000;
+            margin: 0 auto;
+            margin-top: 16px;
+            &_first {
+                width: 316px;
+            }
+            &_second {
+                width: 314px;
+            }
+            &_third {
+                width: 308px;
+            }
+        }
+    }
+}

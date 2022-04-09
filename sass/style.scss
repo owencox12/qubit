@@ -1,0 +1,35 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container_header {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.container_slider {
+    max-width: 1400px;
+}
+.container {
+    max-width: 1265px;
+    margin: 0 auto;
+}
+
+body.lock {
+    overflow: hidden
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/main';
+@import 'blocks/sponsors';
+@import 'blocks/grow';
+@import 'blocks/qubit';
+@import 'blocks/power';
+@import 'blocks/about';
+@import "blocks/slider";
+@import 'blocks/spec';
+@import 'blocks/eco';
+@import 'blocks/demo'; 
+@import 'blocks/join';
+@import 'blocks/footer';
+@import 'blocks/media';

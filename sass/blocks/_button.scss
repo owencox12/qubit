@@ -1,0 +1,33 @@
+.button {
+    width: 157px;
+    height: 40px;
+    background: #6F2CFF;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+    &--main {
+        background: #6F2CFF;
+        border-radius: 0px 27.5px 27.5px 0px;
+        width: 187px;
+        height: 45px;
+    }
+    &--powerSecond {
+        color: #6F2CFF;
+        background: #FFFFFF;
+        border: 1px solid #000;
+    }
+    &--eco {
+        width: 203px;
+        height: 40px;
+    }
+    &--demo {
+        width: 187px;
+        height: 45px;
+        border-radius: 0px 27.5px 27.5px 0px;
+    }
+}

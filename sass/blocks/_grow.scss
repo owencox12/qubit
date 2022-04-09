@@ -1,0 +1,79 @@
+.grow {
+    min-height: 660px;
+    padding-top: 20px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_title {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 45px;
+            color: #1C1C1C;
+            width: 400px;
+            margin-top: 70px;
+        }
+        &_buttons {
+            display: flex;
+            align-items: center;
+            margin-top: 58px;
+            &_text {
+                margin-left: 35px;
+            }
+        }
+        &_descr {
+            margin-top: 56px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;
+            color: #000000;
+        }
+        &_link {
+            a {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 15px;
+                color: #000000;
+            }
+        }
+    }
+    &__blocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        &_block {
+            width: 380px;
+            height: 220px;
+            border-left: 1px solid #E0E0E0;
+            border-right: 1px solid #E0E0E0;
+            &_proccent {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 45px;
+                color: #000000;
+                margin-top: 8px;
+                margin-left: 16.5px;
+            }
+            &_descr {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+                color: #000000;
+                margin-top: 14px;
+                margin-left: 16.5px;
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.header {
+    transition: all .3s;
+    top: -100%;
+    &__active {
+        position: fixed;
+        width: 100%;
+        background: #fff;
+        transition: all .3s;
+        top: 0;
+        z-index: 2000;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 22px 0 24px 0;
+        align-items: center;
+    }
+    &__menu {
+        &_list {
+            display: flex;
+            &_type {
+                margin: 0 21px;
+                a {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: #1C1C1C;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__burger_list {
+        display: none;
+    }
+    &__buttons {
+        display: flex;
+        align-items: center;
+        &_button {
+            margin-right: 38px;
+        }
+        &_link {
+            a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                color: #1C1C1C;
+                text-decoration: none;
+            }
+        }
+    }
+}

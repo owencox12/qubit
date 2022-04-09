@@ -1,0 +1,42 @@
+.power {
+    background: #F5F5F5;
+    padding: 94px 0 101px 0;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: center;
+        color: #000000;
+    }
+    &__subtitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+        margin-top: 28px;
+    }
+    &__image {
+        margin-top: 90px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 76px;
+        &_button_first {
+            margin-right: 22px;
+        }
+    }
+    &-img {
+        max-width: 100%;
+        height: auto;
+    }
+}

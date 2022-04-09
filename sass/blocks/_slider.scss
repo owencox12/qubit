@@ -1,0 +1,72 @@
+.slider {
+    min-height: 500px;
+    background: #F5F5F5;
+    padding: 88px 0 70px 0;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: center;
+        color: #000000;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        &_block {
+            width: 320px;
+            height: 440px;
+            background: #fff;
+            box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+            border-radius: 0px 0px 7px 7px;
+            &_title {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 29px;
+                line-height: 45px;
+                text-align: center;
+                color: #000000;
+                margin-top: 30px;
+            }
+            &_descr {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                color: #6F2CFF;
+                width: 210px;
+                margin: 0 auto;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+.swiper {
+    margin-top: 50px;
+    // margin-left: 70px;
+    position: relative;
+}
+.slider-left {
+    position: absolute;
+    top: 40%;
+    z-index: 1000;
+    cursor: pointer;
+}
+.slider-right {
+    position: absolute;
+    right: 0%;
+    top: 40%;
+    z-index: 1000;
+    cursor: pointer;
+}
+.swiper-slide {
+    &:first-child {
+        margin-left: 50px;
+    }
+}

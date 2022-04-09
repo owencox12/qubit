@@ -1,0 +1,27 @@
+.demo {
+    background: url(../../image/demoBG.png) center center / cover no-repeat;
+    min-height: 329px;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 93px;
+    }
+    &__form {
+        display: flex;
+        justify-content: center;
+        margin-top: 39px;
+        input {
+            width: 268px;
+            height: 45px;
+            background: #FFFFFF;
+            border-radius: 27.5px 0px 0px 27.5px;
+            border: none;
+            padding-left: 20px;
+        }
+    }
+}
